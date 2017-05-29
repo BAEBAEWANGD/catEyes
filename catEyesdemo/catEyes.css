@@ -7,10 +7,6 @@
 	width:15px;
 	height:15px;
 }
-a{
-	text-decoration:none;
-	color:black;
-}
 .header-list .turn{
 	background-color:red;
 	color:white;
@@ -185,9 +181,9 @@ float:left;
 #enter{
 	display:none;
 	position:fixed;
-	right:195px;
+	right:63px;
 	top:80px;
-	width:83px;
+	width:82px;
 	height:40px;
 	border:1px solid #E8E8E8;
 	border-top:none;
@@ -220,7 +216,7 @@ float:left;
 	width:100%;
 }
 .content,.soon-box{
-	width:87.5%;
+	width:97%;
 	display:-webkit-flex;
 }
 .main-content{
@@ -255,13 +251,22 @@ float:left;
 .show-above{
 	color:orange;
 }
+.show-above:hover{
+	color:orange;
+}
 .all .full{
 	font-size:18px;
 }
 .main-full{
 	color:red;
 }
+.main-full:hover{
+	color:red;
+}
 .show-full{
+	color:blue;
+}
+.show-full:hover{
 	color:blue;
 }
 .all .full:hover{
@@ -301,8 +306,11 @@ float:left;
 .disc .one{
 	font-size:25px;
 }
+.ul-list:hover a{
+	text-decoration: none;
+}
 .ul-list .disc-footer{
-	margin:40px 0px 0px 5px;
+	margin:45px 0px 0px 5px;
 	color:red;
 	border:1px solid #E8E8E8;
 	border-top:none;
@@ -320,35 +328,35 @@ float:left;
 }
 #max1{
 	position:absolute;
-	top:695px;
-	left:530px;
+	top:675px;
+	left:465px;
 	width:60px;
 	height:30px;
 }
 #max2{
 	position:absolute;
-	top:695px;
-	left:743px;
+	top:675px;
+	left:680px;
 	width:60px;
 	height:30px;
 }
 #max3{
 	position:absolute;
-	top:990px;
-	left:100px;
+	top:975px;
+	left:35px;
 	width:50px;
 	height:40px;
 }
 #max4{
 	position:absolute;
-	top:1415px;
+	top:1395px;
 	width:60px;
 	height:30px;
 }
 #max5{
 	position:absolute;
-	top:1792px;
-	left:745px;
+	top:1770px;
+	left:675px;
 	width:50px;
 	height:40px;
 }
@@ -356,7 +364,7 @@ float:left;
 	-webkit-flex:1;
 }
 .ranking{
-	margin-left:70px;
+	margin-left:30px;
 }
 .ranking-header{
 	color:red;
@@ -381,6 +389,9 @@ float:left;
 #numberOne{
 	margin-bottom:10px;
 }
+#numberOne a{
+	text-decoration: none;
+}
 #numberOne:hover{
 	background-color:#F0F0F0;
 }
@@ -393,6 +404,10 @@ float:left;
 	line-height:39px;
 	padding-left:10px;
 	font-size:20px;
+	color:black;
+}
+#numberOne:hover a{
+	text-decoration: none;
 }
 #numberOne .movie-check{
 	line-height:39px;
@@ -411,6 +426,7 @@ float:left;
 }
 .ranking-list .list-left{
 	float:left;
+	color:black;
 }
 .list-left{
 	font-size:18px;
@@ -556,9 +572,10 @@ float:left;
 }
 .numberTwo{
 	float:left;
-	margin:20px 7px 20px 0px;
+	margin:20px 6px 0px 0px;
 }
 .numberThree{
+
 	margin:30px 0px;
 }
 .class{
@@ -619,6 +636,7 @@ float:left;
 }
 .meituan:hover{
 	text-decoration:underline;
+	color:red;
 }
 .maoyan a{
 	color:gray;
